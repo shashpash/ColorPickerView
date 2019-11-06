@@ -808,4 +808,8 @@ public class ColorPickerView extends FrameLayout implements LifecycleObserver {
       return colorPickerView;
     }
   }
+
+  public ImageView getPalette() {
+    return palette;
+  }
 }
